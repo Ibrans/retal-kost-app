@@ -1,0 +1,48 @@
+GET http://localhost:3000/api/pembayaran
+
+###
+PUT GET http://localhost:3000/api/penyewa/1
+Content-Type: application/json
+
+{
+    "nama": "lisa",
+    "nomor_telepon": "082163716000",
+    "email": "lisa@gmail.com",
+    "alamat": "medan amplas",
+    "pekerjaan": "dosen baru"
+}
+
+
+
+
+
+
+
+###
+POST  http://localhost:3000/api/items
+
+Content-Type: application/json
+
+{
+     "nomor_kamar":"1a",
+     "tipe_kamar":"single",
+     "harga_sewa":"2000000",
+     "fasilitas":"AC",
+     "deskripsi":"luas dan bersih"
+}
+###
+
+DELETE http://localhost:3000/api/kamar/1
+
+###
+GET http://localhost:3000/api/kamar
+
+###
+GET http://localhost:3000/api/kost
+
+###
+GET http://localhost:3000/api/pembayaran
+
+###
+
+DELETE http://localhost:3000/api/pembayaran/1
